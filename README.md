@@ -75,3 +75,4 @@ Thanks to these amazing guys, these are my references to make this works.
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
 - Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
 - Mura fix v2 reference - https://www.reddit.com/r/SteamDeck/comments/1au9blh/updated_fix_for_steamdeck_oled_mura_noise_in/
+- vkBasalt local on Deck https://github.com/simons-public/steam-deck-vkbasalt-install
