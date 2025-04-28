@@ -21,7 +21,7 @@ The idea is, reduce lift & gamma a bit at the grey-level to black-level pixel on
 - Work with 16:10 and 16:9
 
 ### Cons
-Cons is very perspective by your eyes, tho you can adjust every setting later
+Cons is very perspective by your eyes, you can adjust every setting later anyway
 - On low brightness below 35, shadow detail is a bit loss
 - If you've sensitive eye, you can see film grain moving on the near-black gradient
 - Not working on UI, only work in-game with Vulkan/dX. While OpenGL isn't working
