@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-Average Samsung-panel on Steam Deck have known-issues with issues called Mura Effect, where it has bad gray-uniformity. Resulting, grainy/dirty looks on the screen which can consider looks like a noise or film grain. Causing gradient effects on near-black looks like banding when fading into black.
+Average Samsung-panel on Steam Deck have known-issues called Mura Effect, where it has bad gray-uniformity. Resulting, grainy/dirty looks on the screen which can consider looks like a noise or film grain. Causing gradient effects on near-black looks like banding when fading into black.
 
 After certain level of brightness between 35/40% above and certain higher screen hertz, it seems grey level is raised too much. Resulting raised black, more visible mura, and bad transition effects on gradient between black-level and grey is more prominent.
 
