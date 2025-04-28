@@ -68,3 +68,10 @@ You see, that we need a couple fx to fix the certain scenario. If only this is a
 These problems not seen by 1 or 2, but by a lot of buyers. I see a lot of refund caused by this problem, there is no way steam won't fix this except they will keep receiving a refund.
 
 While I don't have any time to do refund, RMA or anything that there is no guarantee of getting the perfect panel, I just want to enjoy it. Also LE version, isn't available on every countries. I love the deck because I'm tired with windows and love what valve do with linux gaming community. So, decided to keep this device and find the solution instead.
+
+## Credit
+Thanks to these amazing guys, these are my references to make this works.
+- Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
+- Lift Gamma Gain Reference - 3an and CeeJay.dk
+- Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
+- Mura fix v2 reference - https://www.reddit.com/r/SteamDeck/comments/1au9blh/updated_fix_for_steamdeck_oled_mura_noise_in/
