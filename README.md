@@ -28,7 +28,7 @@ Cons is very perspective by your eyes, you can adjust every setting later anyway
 - When plugged into monitor the effect still on, but you cannot really see the mura map tho. You can always toggle to off
 - Gradient still looks weird in some games/HDR
 
-## Usage
+# Usage
 Reshadeck can do this also. But I find even using an empty fx, reshadeck tank the performance so bad, you can use it only for a testing purpose. While vkbasalt almost no visible performance hit.
 
 Installation
