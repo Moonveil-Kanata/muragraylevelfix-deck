@@ -14,7 +14,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 > - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
 
 # Usage
-*You can use Reshadeck, but you will get severe performance hit. While this vkbasalt almost no visible performance hit.
+*I find a way to use reshade to whole gamescope by using systemd, but it hits deck performance by a lot. By using this method, you will get best performance as it can.
 
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
