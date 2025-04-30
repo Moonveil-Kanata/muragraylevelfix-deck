@@ -1,19 +1,18 @@
 # An Ultimate Way to Fix Gray-Level and Mura on Steam Deck
+https://github.com/user-attachments/assets/254a30c3-f0c4-4e98-b25e-6407b6a3cd0f
 
 ### TL;DR
 
-Average Samsung-panel on Steam Deck have known-issues called Mura Effect, where it has bad gray-uniformity. Resulting, grainy/dirty looks on the screen which can consider looks like a noise or film grain. Causing gradient effects on near-black looks like banding when fading into black.
-
-After certain level of brightness between 35/40% above and certain higher screen hertz, it seems grey level is raised too much. Resulting raised black, more visible mura, and bad transition effects on gradient between black-level and grey is more prominent.
+Average Samsung-panel on Steam Deck have known-issues called Mura Effect, where it has bad gray-uniformity on certain Hz and brightness. Resulting, grainy/dirty looks on the screen which can consider looks like a noise or film grain. Causing gradient effects on near-black looks like banding when fading into black. **While the current fix provided from valve unfortunately is raising the black level with the mura map keep showing on the black pixel.**
 
 In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and set your brightness between 35/40%, and disable mura compensation on developer settings**. And you will get the screen where it should be, perfect black and nice gradient on near-black. **But this is not apply with higher brightness.**
 
-This fix will use combination between film grain, lift & gamma, and your mura map. While this is not perfect, atleast it will fix half of the screen issue.
+This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While this is not perfect, atleast it will fix half of the screen issue.
 
 # Usage
-You can use Reshadeck, but you will get severe performance hit.
+*You can use Reshadeck, but you will get severe performance hit. While this vkbasalt almost no visible performance hit.
 
-Installation
+Installation:
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
 2. Download my custom fix shader and extract
 3. Set your screen to 60hz for cleaner image (Or test by yourself every hz, which hertz that has less mura effect)
