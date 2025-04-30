@@ -72,7 +72,6 @@ flatpak install org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
 ```
 
 If it's not working, try to set permission from Flatseal, or System Settings → Application → Flatpak Permission Settings → Bottles → Change ``All User Files`` to read/write
-
 ## Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
