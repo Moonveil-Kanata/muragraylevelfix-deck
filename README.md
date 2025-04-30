@@ -10,7 +10,7 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While this is not perfect, atleast it will fix half of the screen issue.
 
 > [!IMPORTANT]
-> - Only works in-game, not the Steam UI
+> - Only works in-game, not the Steam UI nor desktop UI
 > - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method
 
 # Usage
@@ -34,31 +34,34 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 1. Boot to the game mode
 2. Press ``•••`` Disable frame limit and set to 60hz (**For less mura as possible**)
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` (**For perfect black**)
-4. Enjoy, read troubleshoot for advanced stuff
+5. Enjoy, read troubleshoot for advanced stuff
+> [!NOTE]
+> Enable Developer mode Settings → System → ``Enable Developer Mode``
 
-## Troubleshoot
-### Emu Deck
+# Troubleshoot
+## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
 1. Find "/home/deck/.local/share/vulkan/implicit_layer.d/"
 2. rename file "vkBasalt.x86.json" to "vkBasalt.x86.json.bak"
 
-### HDR Games
-HDR game have pale base rgb and higher mura-effect. So use this as launch-command per-game with active HDR compatible games.
+## HDR Games
+HDR game have pale base rgb and higher mura-effect. So we will use different shader.
+Set this as launch-command per-game with active compatible HDR games.
 ```
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_HDR.conf %command%
 ```
 
-### Auto HDR Games
+## Auto HDR Games
 For some of you using auto hdr reshade(non vkbasalt) from here https://www.reddit.com/r/SteamDeck/comments/1b4rbd8/auto_hdr_works_on_steam_deck_now/
 
-you can apply this command per-game
+You can apply this command per-game for another different shader
 ```
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 ```
 
-### OpenGL | Gamescope
-If you have opengl games
+## OpenGL | Reshade on Gamescope Game Mode
+As this is using gamescope compositor itself, then it works on everything. OpenGL, nested desktop, you name it. But cannot works globally. Need to set the launch options per-game.
 ```
 bash -c "DISPLAY=:0 xprop -root -f GAMESCOPE_RESHADE_EFFECT 8s -set GAMESCOPE_RESHADE_EFFECT 'NearBlackMura_Fix.fx'; %command%; DISPLAY=:0 xprop -root -remove GAMESCOPE_RESHADE_EFFECT"
 ```
