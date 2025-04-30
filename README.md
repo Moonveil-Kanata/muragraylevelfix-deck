@@ -11,7 +11,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 > [!IMPORTANT]
 > - Only works in-game, not the Steam UI nor desktop UI
-> - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method
+> - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
 
 # Usage
 *You can use Reshadeck, but you will get severe performance hit. While this vkbasalt almost no visible performance hit.
@@ -60,7 +60,7 @@ You can apply this command per-game for another different shader
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 ```
 
-## OpenGL | Reshade on Gamescope Game Mode
+## Gamescope
 As this is using gamescope compositor itself, then it works on everything. OpenGL, nested desktop, you name it. But cannot works globally. Need to set the launch options per-game.
 ```
 bash -c "DISPLAY=:0 xprop -root -f GAMESCOPE_RESHADE_EFFECT 8s -set GAMESCOPE_RESHADE_EFFECT 'NearBlackMura_Fix.fx'; %command%; DISPLAY=:0 xprop -root -remove GAMESCOPE_RESHADE_EFFECT"
