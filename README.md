@@ -7,12 +7,13 @@ Average Samsung-panel on Steam Deck have known-issues called Mura Effect, where 
 
 In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and set your brightness between 35/40%, and disable mura compensation on developer settings**. And you will get the screen where it should be, perfect black and nice gradient on near-black. **But this is not apply with higher brightness.**
 
-This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While this is not perfect, atleast it will fix half of the screen issue.
+This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
 > [!IMPORTANT]
-> - Only works in-game, not the Steam UI nor desktop UI
+> - Only works in-game, not the X11 Steam UI nor KDE Plasma
 > - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
 > - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard
+> - Tested on 16:10 & 16:9
 
 # Usage
 *I find a way to use reshade to whole gamescope by using systemd, but it hits deck performance by a lot. By using this method, you will get best performance as it can.
