@@ -26,7 +26,6 @@ For Emu Deck after a couple test logging, it seems .appimage apps keep reading t
 
 1. Find "/home/deck/.local/share/vulkan/implicit_layer.d/"
 2. rename file "vkBasalt.x86.json" to "vkBasalt.x86.json.bak"
-3. Enjoy :)
 
 ### HDR Games
 HDR game have pale base rgb and higher mura-effect. So use this launch-command per-game with active HDR compatible games.
