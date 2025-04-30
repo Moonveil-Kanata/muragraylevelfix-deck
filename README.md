@@ -18,22 +18,13 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
-2. Download
-3. Extract .fx files to
-   ``
-   /home/deck/.local/share/gamescope/reshade/Shaders
-   ``
-   and .conf files to
-   ``
-   /home/deck/.config/vkBasalt
-   ``
-5. Go to ``rootfs/tmp/mura`` copy ``xxxx_green.png`` and ``xxxx_red.png`` to ``/home/deck/.local/share/gamescope/reshade/Textures`` and rename it to ``green.png`` and ``red.png``
+2. Download and execute ``Install.sh``
 6. Done, now vkBasalt is running globally
 
 **Usage:**
 1. Boot to the game mode
-2. Press ``•••`` Disable frame limit and set to 60hz (**For less mura as possible**)
-3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` (**For perfect black**)
+2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
+3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
 5. Enjoy, read troubleshoot for advanced stuff
 > [!NOTE]
 > Enable Developer mode Settings → System → ``Enable Developer Mode``
@@ -55,16 +46,32 @@ VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_HDR.conf %command%
 ## Auto HDR Games
 For some of you using auto hdr reshade(non vkbasalt) from here https://www.reddit.com/r/SteamDeck/comments/1b4rbd8/auto_hdr_works_on_steam_deck_now/
 
-You can apply this command per-game for another different shader
+Set this as launch-command per-game to use AutoHDR config
 ```
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 ```
 
 ## Gamescope
-As this is using gamescope compositor itself, then it works on everything. OpenGL, nested desktop, you name it. But cannot works globally. Need to set the launch options per-game.
+As this is using gamescope compositor itself, then it works on everything that shows on the screen. OpenGL, Nested Desktop, you name it, when launching the game.
+
+Set this as launch-command per-game
 ```
 bash -c "DISPLAY=:0 xprop -root -f GAMESCOPE_RESHADE_EFFECT 8s -set GAMESCOPE_RESHADE_EFFECT 'NearBlackMura_Fix.fx'; %command%; DISPLAY=:0 xprop -root -remove GAMESCOPE_RESHADE_EFFECT"
 ```
+
+## Flatpak
+Install vkBasalt from Discover
+
+Drag and drop and choose "Link Here" ``/home/deck/.config/vkBasalt/vkBasalt.conf`` to ``/home/deck/.local/share/flatpak/runtime/org.freedesktop.Platform.VulkanLayer.vkBasalt/x86_64/24.08/{UNIQUE NUMBER}/files/etc/vkBasalt``
+
+## Bottles via Flatpak
+If you open your bottles → Settings → and hover to ``Post-Processing Effects`` it will hint you to install vkBasalt flatpak with specified version. Something like:
+
+```
+flatpak install org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
+```
+
+If it's not working, try to set permission from Flatseal, or System Settings → Application → Flatpak Permission Settings → Bottles → Change ``All User Files`` to read/write
 
 ## Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
