@@ -32,8 +32,9 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 **Usage:**
 1. Boot to the game mode
-2. Press ``•••`` Disable frame limit and set to 60hz (For less mura as possible)
-3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation``
+2. Press ``•••`` Disable frame limit and set to 60hz (**For less mura as possible**)
+3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` (**For perfect black**)
+4. Enjoy, read troubleshoot for advanced stuff
 
 ## Troubleshoot
 ### Emu Deck
@@ -43,7 +44,7 @@ For Emu Deck after a couple test logging, it seems .appimage apps keep reading t
 2. rename file "vkBasalt.x86.json" to "vkBasalt.x86.json.bak"
 
 ### HDR Games
-HDR game have pale base rgb and higher mura-effect. So use this launch-command per-game with active HDR compatible games.
+HDR game have pale base rgb and higher mura-effect. So use this as launch-command per-game with active HDR compatible games.
 ```
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_HDR.conf %command%
 ```
