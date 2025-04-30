@@ -9,15 +9,31 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While this is not perfect, atleast it will fix half of the screen issue.
 
+> [!IMPORTANT]
+> - Only works in-game, not the Steam UI
+> - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method
+
 # Usage
 *You can use Reshadeck, but you will get severe performance hit. While this vkbasalt almost no visible performance hit.
 
-Installation:
+**Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
-2. Download my custom fix shader and extract
-3. Set your screen to 60hz for cleaner image (Or test by yourself every hz, which hertz that has less mura effect)
-4. Go to developer settings, disable mura compensation for a perfect black. As the shader already have this fix
-5. Done, the shader work globally to all of you vulkan/dx games. You can toggle the effect by open your keyboard by pressing 'steam+x' and 'tab' button
+2. Download
+3. Extract .fx files to
+   ``
+   /home/deck/.local/share/gamescope/reshade/Shaders
+   ``
+   and .conf files to
+   ``
+   /home/deck/.config/vkBasalt
+   ``
+5. Go to ``rootfs/tmp/mura`` copy ``xxxx_green.png`` and ``xxxx_red.png`` to ``/home/deck/.local/share/gamescope/reshade/Textures`` and rename it to ``green.png`` and ``red.png``
+6. Done, now vkBasalt is running globally
+
+**Usage:**
+1. Boot to the game mode
+2. Press ``•••`` Disable frame limit and set to 60hz (For less mura as possible)
+3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation``
 
 ## Troubleshoot
 ### Emu Deck
