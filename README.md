@@ -11,7 +11,8 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 > [!IMPORTANT]
 > - Only works in-game, not the Steam UI nor desktop UI
-> - vkBasalt works only on Vulkan and DX, for openGL, use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
+> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
+> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard
 
 # Usage
 *I find a way to use reshade to whole gamescope by using systemd, but it hits deck performance by a lot. By using this method, you will get best performance as it can.
@@ -19,13 +20,13 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
 2. Download and execute ``Install.sh``
-6. Done, now vkBasalt is running globally
+6. **Done**, now vkBasalt is running globally
 
 **Usage:**
 1. Boot to the game mode
 2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
-5. Enjoy, read troubleshoot for advanced stuff
+5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#troubleshoot) for advanced stuff
 > [!NOTE]
 > Enable Developer mode Settings → System → ``Enable Developer Mode``
 
@@ -53,6 +54,7 @@ VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 
 ## Gamescope
 As this is using gamescope compositor itself, then it works on everything that shows on the screen. OpenGL, Nested Desktop, you name it, when launching the game.
+**Downside of gamescope, you cannot toggle off/on in-game.**
 
 Set this as launch-command per-game
 ```
@@ -63,6 +65,8 @@ bash -c "DISPLAY=:0 xprop -root -f GAMESCOPE_RESHADE_EFFECT 8s -set GAMESCOPE_RE
 Install vkBasalt from Discover
 
 Drag and drop and choose "Link Here" ``/home/deck/.config/vkBasalt/vkBasalt.conf`` to ``/home/deck/.local/share/flatpak/runtime/org.freedesktop.Platform.VulkanLayer.vkBasalt/x86_64/24.08/{UNIQUE NUMBER}/files/etc/vkBasalt``
+
+If it's not work, try changing the flatpak permission from system settings, or flatseal.
 
 ## Bottles via Flatpak
 If you open your bottles → Settings → and hover to ``Post-Processing Effects`` it will hint you to install vkBasalt flatpak with specified version. Something like:
