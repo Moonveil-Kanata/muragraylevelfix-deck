@@ -8,7 +8,7 @@ After certain level of brightness between 35/40% above and certain higher screen
 
 In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and set your brightness between 35/40%, and disable mura compensation on developer settings**. And you will get the screen where it should be, perfect black and nice gradient on near-black. **But this is not apply with higher brightness.**
 
-This fix will use combination between film grain, lift & gamma, and your mura map. While this is not perfect, atleast it will a half of your screen issue.
+This fix will use combination between film grain, lift & gamma, and your mura map. While this is not perfect, atleast it will fix half of the screen issue.
 
 # Usage
 You can use Reshadeck, but you will get severe performance hit.
