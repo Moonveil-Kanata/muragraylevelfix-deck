@@ -57,6 +57,12 @@ you can apply this command per-game
 VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 ```
 
+### OpenGL | Gamescope
+If you have opengl games
+```
+bash -c "DISPLAY=:0 xprop -root -f GAMESCOPE_RESHADE_EFFECT 8s -set GAMESCOPE_RESHADE_EFFECT 'NearBlackMura_Fix.fx'; %command%; DISPLAY=:0 xprop -root -remove GAMESCOPE_RESHADE_EFFECT"
+```
+
 ## Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
