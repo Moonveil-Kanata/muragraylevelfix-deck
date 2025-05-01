@@ -13,7 +13,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 > - Only works in-game, not the X11 Steam UI nor KDE Plasma
 > - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
 > - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard
-> - Tested on 16:10 & 16:9
+> - Only tested with 16:10 & 16:9
 
 # Usage
 *I find a way to use reshade to whole gamescope by using systemd, but it hits deck performance by a lot. By using this method, you will get best performance as it can.
