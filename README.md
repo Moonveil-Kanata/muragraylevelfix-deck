@@ -69,13 +69,6 @@ Drag and drop and choose "Link Here" ``/home/deck/.config/vkBasalt/vkBasalt.conf
 
 If it's not work, try changing the flatpak permission from system settings, or flatseal.
 
-## Bottles via Flatpak
-If you open your bottles → Settings → and hover to ``Post-Processing Effects`` it will hint you to install vkBasalt flatpak with specified version. Something like:
-
-```
-flatpak install org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
-```
-
 If it's not working, try to set permission from Flatseal, or System Settings → Application → Flatpak Permission Settings → Bottles → Change ``All User Files`` to read/write
 ## Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
