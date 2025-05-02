@@ -1,4 +1,4 @@
-# An Ultimate Way to Fix Gray-Level and Mura on Steam Deck
+# Fix Gray-Level and Mura on Steam Deck
 https://github.com/user-attachments/assets/254a30c3-f0c4-4e98-b25e-6407b6a3cd0f
 
 ### TL;DR
