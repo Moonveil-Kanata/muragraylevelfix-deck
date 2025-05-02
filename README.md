@@ -12,7 +12,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 # Usage
 
 **Installation:**
-1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
+1. Install [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
 2. [Download](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
 6. **Done**, now vkBasalt is running globally
 
@@ -90,6 +90,6 @@ ReShade.fxh
 # Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
-- Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
-- Mura fix v2 reference - https://www.reddit.com/r/SteamDeck/comments/1au9blh/updated_fix_for_steamdeck_oled_mura_noise_in/
-- vkBasalt local on Deck https://github.com/simons-public/steam-deck-vkbasalt-install
+- [Original Mura Fix](https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/) Reference
+- [Mura fix v2](https://www.reddit.com/r/SteamDeck/comments/1au9blh/updated_fix_for_steamdeck_oled_mura_noise_in/) Reference
+- [Steam Deck vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
