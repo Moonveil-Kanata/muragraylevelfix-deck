@@ -10,11 +10,6 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
 # Usage
-> [!IMPORTANT]
-> - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
-> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#gamescope).
-> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#toggle-globally)
-> - 16:10 & 16:9
 
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
@@ -27,12 +22,18 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
 5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
 
+> [!NOTE]
+> - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
+> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#gamescope).
+> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#toggle-globally)
+> - 16:10 & 16:9
+
 # Troubleshoot
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
-1. Find "/home/deck/.local/share/vulkan/implicit_layer.d/"
-2. rename file "vkBasalt.x86.json" to "vkBasalt.x86.json.bak"
+1. Find ``/home/deck/.local/share/vulkan/implicit_layer.d/``
+2. rename file ``vkBasalt.x86.json`` to ``vkBasalt.x86.json.bak``
 
 ## HDR Games
 HDR game have pale base rgb and higher mura-effect. So we will use different shader.
@@ -76,8 +77,14 @@ If it's not work, try changing the flatpak permission from system settings, or f
 - Uninstal vkBasalt https://github.com/simons-public/steam-deck-vkbasalt-install
 - And remove this
 ```
-/home/deck/.local/bin/Toggle_vkBasalt.sh (Delete the "bin" folder, if you never use it)
-/home/deck/.local/share/gamescope/reshade
+/home/deck/.local/bin/(Delete the "bin" folder, if you never use it)
+Toggle_vkBasalt.sh
+
+/home/deck/.local/share/gamescope/reshade/
+NearBlackMura_Fix.fx
+NearBlackMura_Fix_HDR.fx
+NearBlackMura_Fix_AutoHDR.fx
+ReShade.fxh
 ```
 
 # Credit
