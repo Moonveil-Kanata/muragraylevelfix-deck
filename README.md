@@ -13,7 +13,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
-2. [Download](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader) and execute ``Install.sh``
+2. [Download](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract and execute ``Install.sh``
 6. **Done**, now vkBasalt is running globally
 
 **Usage:**
