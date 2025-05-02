@@ -80,7 +80,7 @@ If it's not work, try changing the flatpak permission from system settings, or f
 /home/deck/.local/share/gamescope/reshade
 ```
 
-# ⚪ Credit
+# 🟡 Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
 - Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
