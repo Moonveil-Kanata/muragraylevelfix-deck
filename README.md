@@ -27,7 +27,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 > - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#gamescope).
 > - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#toggle-globally)
 > - 16:10 & 16:9
-> - I find that 40-45% brightness has more mura present, especially on HDR. While other brightness are great
+> - 40-45% brightness has more mura present, especially on HDR. While other brightness are great
 
 # Troubleshoot
 ## Emu Deck
