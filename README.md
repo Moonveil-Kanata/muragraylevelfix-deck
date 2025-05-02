@@ -85,6 +85,7 @@ NearBlackMura_Fix.fx
 NearBlackMura_Fix_HDR.fx
 NearBlackMura_Fix_AutoHDR.fx
 ReShade.fxh
+ReShadeUI.fxh
 ```
 
 # Credit
