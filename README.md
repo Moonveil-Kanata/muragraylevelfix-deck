@@ -13,7 +13,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 
 **Installation:**
 1. Install [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
-2. [Download](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
+2. [Download Shaders](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
 6. **Done**, now vkBasalt is running globally
 
 **Usage:**
@@ -43,7 +43,7 @@ VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_HDR.conf %command%
 ```
 
 ## Auto HDR Games
-For some of you using auto hdr reshade(non vkbasalt) from here https://www.reddit.com/r/SteamDeck/comments/1b4rbd8/auto_hdr_works_on_steam_deck_now/
+For some of you using [auto hdr reshade](https://www.reddit.com/r/SteamDeck/comments/1b4rbd8/auto_hdr_works_on_steam_deck_now/) (non vkBasalt)
 
 Set this as launch-command per-game to use AutoHDR config
 ```
@@ -69,12 +69,12 @@ If it's not work, try changing the flatpak permission from system settings, or f
 
 ## Toggle Globally
 - Install Decky Loader and enable Developer mode
-- Install Bash Shortcut Plugin https://github.com/SDH-Stewardship/bash-shortcuts/pull/1#issuecomment-2460919165
+- Install [Bash Shortcut Plugin](https://github.com/SDH-Stewardship/bash-shortcuts/pull/1#issuecomment-2460919165)
 - Navigate to Plugin Config → Add Shortcut
 - Set it **Name ``Toggle vkBasalt``** | **Command ``sh +x /home/deck/.config/bin/Toggle_vkBasalt.sh``**
 
 ## Uninstall
-- Uninstal vkBasalt https://github.com/simons-public/steam-deck-vkbasalt-install
+- Uninstal [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
 - And remove this
 ```
 /home/deck/.local/bin/(Delete the "bin" folder, if you never use it)
