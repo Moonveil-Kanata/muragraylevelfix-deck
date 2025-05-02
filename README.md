@@ -55,7 +55,8 @@ VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 
 ## Gamescope
 As this is using gamescope compositor itself, then it works on everything that shows on the screen. OpenGL, Nested Desktop, you name it, when launching the game.
-**Downside of gamescope, you cannot toggle off/on in-game.**
+
+**The downside of this method, it's tank your performance by a lot**
 
 Set this as launch-command per-game
 ```
@@ -69,7 +70,21 @@ Drag and drop and choose "Link Here" ``/home/deck/.config/vkBasalt/vkBasalt.conf
 
 If it's not work, try changing the flatpak permission from system settings, or flatseal.
 
-If it's not working, try to set permission from Flatseal, or System Settings → Application → Flatpak Permission Settings → Bottles → Change ``All User Files`` to read/write
+## Toggle Globally
+- Install Decky Loader and enable Developer mode
+- Install Bash Shortcut Plugin https://github.com/SDH-Stewardship/bash-shortcuts/pull/1#issuecomment-2460919165
+- Navigate to Plugin Config → Add Shortcut
+- Set it **Name ``Toggle vkBasalt``** | **Command ``sh +x /home/deck/.config/bin/Toggle_vkBasalt.sh``**
+
+## Uninstall
+- Uninstal vkBasalt https://github.com/simons-public/steam-deck-vkbasalt-install
+- And remove this
+```
+/home/deck/Documents/bin/Toggle_vkBasalt.sh (Delete the "bin" folder, if you never use it)
+/home/deck/.local/share/gamescope/reshade
+
+```
+
 ## Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
