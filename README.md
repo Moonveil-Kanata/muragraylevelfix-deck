@@ -26,8 +26,6 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
 5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
-> [!NOTE]
-> Enable Developer mode Settings → System → ``Enable Developer Mode``
 
 # 🔴 Troubleshoot
 ## Emu Deck
