@@ -9,14 +9,12 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
+# 🟢 Usage
 > [!IMPORTANT]
-> - Only works in-game, not the X11 Steam UI nor KDE Plasma
+> - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
 > - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
-> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard
-> - Only tested with 16:10 & 16:9
-
-# Usage
-*I find a way to use reshade to whole gamescope by using systemd, but it hits deck performance by a lot. By using this method, you will get best performance as it can.
+> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#toggle-globally)
+> - 16:10 & 16:9
 
 **Installation:**
 1. Install vkbasalt locally, follow this guide https://github.com/simons-public/steam-deck-vkbasalt-install
@@ -31,7 +29,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 > [!NOTE]
 > Enable Developer mode Settings → System → ``Enable Developer Mode``
 
-# Troubleshoot
+# 🔴 Troubleshoot
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
@@ -80,12 +78,11 @@ If it's not work, try changing the flatpak permission from system settings, or f
 - Uninstal vkBasalt https://github.com/simons-public/steam-deck-vkbasalt-install
 - And remove this
 ```
-/home/deck/Documents/bin/Toggle_vkBasalt.sh (Delete the "bin" folder, if you never use it)
+/home/deck/.local/bin/Toggle_vkBasalt.sh (Delete the "bin" folder, if you never use it)
 /home/deck/.local/share/gamescope/reshade
-
 ```
 
-## Credit
+# ⚪ Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
 - Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
