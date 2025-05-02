@@ -20,7 +20,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 1. Boot to the game mode
 2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
-5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
+5. **Enjoy**, it should run on most Steam games, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
 
 > [!NOTE]
 > - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
