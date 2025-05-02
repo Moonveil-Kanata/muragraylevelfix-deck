@@ -9,7 +9,7 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
-# 🟢 Usage
+# Usage
 > [!IMPORTANT]
 > - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
 > - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#gamescope).
@@ -27,7 +27,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
 5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
 
-# 🔴 Troubleshoot
+# Troubleshoot
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
@@ -80,7 +80,7 @@ If it's not work, try changing the flatpak permission from system settings, or f
 /home/deck/.local/share/gamescope/reshade
 ```
 
-# 🟡 Credit
+# Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
 - Lift Gamma Gain Reference - 3an and CeeJay.dk
 - Original mura fix reference - https://www.reddit.com/r/SteamDeck/comments/1aej469/maybe_we_can_correct_mura_like_this_for_now/
