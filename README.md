@@ -12,8 +12,8 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 # 🟢 Usage
 > [!IMPORTANT]
 > - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
-> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#gamescope).
-> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#toggle-globally)
+> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot).
+> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot)
 > - 16:10 & 16:9
 
 **Installation:**
@@ -25,7 +25,7 @@ This fix will use combination between **film grain for dithering, lift & gamma (
 1. Boot to the game mode
 2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
-5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/edit/main/README.md#troubleshoot) for advanced stuff
+5. **Enjoy**, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
 > [!NOTE]
 > Enable Developer mode Settings → System → ``Enable Developer Mode``
 
