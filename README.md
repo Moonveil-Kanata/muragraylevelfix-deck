@@ -21,7 +21,7 @@ We will use vkBasalt for better performance, you can use reshadeck/gamescope for
 1. Install [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
 2. [Download Shaders](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
 2. Boot to game mode | Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation``
-4. **Done**, it should run on most of Steam games, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
+4. **Done**, it should run on most of Steam games, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#troubleshoot) for advanced stuff
 
 **Optional:**
 1. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
