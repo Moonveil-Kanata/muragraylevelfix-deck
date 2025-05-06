@@ -29,7 +29,7 @@ We will use vkBasalt for better performance, you can use reshadeck/gamescope for
 <br>
 
 # Troubleshoot
-If you only play non HDR steam games, then the vkBasalt tutorial stop at the [Usage](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-usage) section.
+If you only play non HDR steam games, then the vkBasalt tutorial stop at the [Usage](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#usage) section.
 Troubleshoot section, is only if you want all games work with vkbasalt. Or if something impossible with vkBasalt, we can use gamescope with worse performance.
 
 ## Emu Deck
