@@ -30,6 +30,9 @@ Reshade on vkBasalt works on vulkan layer (In-game only), while reshade on games
 **Optional:**
 1. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 
+![Mura Correction](https://github.com/user-attachments/assets/7919e498-279f-4b50-8ac7-b2aba1ac2731)
+
+
 <br>
 
 # Troubleshoot
