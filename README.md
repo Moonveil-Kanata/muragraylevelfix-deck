@@ -36,8 +36,9 @@ Reshade on vkBasalt works on vulkan layer (In-game only), while reshade on games
 <br>
 
 # Troubleshoot
-If you only play non HDR steam games, then the vkBasalt tutorial stop at the [Usage](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#usage) section.
-Troubleshoot section, is only if you want all games work with vkbasalt. Or if something impossible with vkBasalt, we can use gamescope with worse performance.
+If you only play non HDR & Vulkan/DX Steam games, then the vkBasalt tutorial stop at the [Usage](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#usage) section.
+
+Troubleshoot section is only, if you want all games work with vkbasalt, included OpenGL, Flatpak, Emu Deck, etc. Or if something impossible with vkBasalt, we can use gamescope with worse performance.
 
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
