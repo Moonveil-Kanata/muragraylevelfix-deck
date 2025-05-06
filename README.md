@@ -1,4 +1,5 @@
 # Fix Gray-Level and Mura on Steam Deck
+
 https://github.com/user-attachments/assets/254a30c3-f0c4-4e98-b25e-6407b6a3cd0f
 
 ### TL;DR
@@ -9,27 +10,28 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
+Join the conversation here on [Reddit](https://www.reddit.com/r/SteamDeck/comments/1kb9gku/finally_able_to_fix_mura_effect_on_my_steam_deck/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post.
+
+<br>
+
 # Usage
+We will use vkBasalt for better performance, you can use reshadeck/gamescope for easier usage, but it will decrease your Deck performance by a lot
 
 **Installation:**
 1. Install [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
 2. [Download Shaders](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
-6. **Done**, now vkBasalt is running globally
+2. Boot to game mode | Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation``
+4. **Done**, it should run on most of Steam games, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
 
-**Usage:**
-1. Boot to the game mode
-2. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
-3. Press ``STEAM`` Button → Settings → Developer → Activate ``Disable Mura Compensation`` | **For perfect black**
-5. **Enjoy**, it should run on most Steam games, read [troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-troubleshoot) for advanced stuff
+**Optional:**
+1. Press ``•••`` Disable frame limit and set to 60hz | **For less mura as possible**
 
-> [!NOTE]
-> - Only works in-game, not the Wayland/Xwayland UI nor KDE Plasma
-> - vkBasalt works only on Vulkan and DX, for openGL or even nested desktop use the gamescope method at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#gamescope).
-> - Shader can visible with external monitor, toggle it by press ``Tab`` button on keyboard, or toggle globally at the [Troubleshoot](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#toggle-globally)
-> - 16:10 & 16:9
-> - 40-45% brightness has more mura present, especially on HDR. While other brightness are great
+<br>
 
 # Troubleshoot
+If you only play non HDR steam games, then the vkBasalt tutorial stop at the [Usage](https://github.com/Moonveil-Kanata/muragraylevelfix-deck?tab=readme-ov-file#-usage) section.
+Troubleshoot section, is only if you want all games work with vkbasalt. Or if something impossible with vkBasalt, we can use gamescope with worse performance.
+
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
@@ -88,6 +90,8 @@ NearBlackMura_Fix_AutoHDR.fx
 ReShade.fxh
 ReShadeUI.fxh
 ```
+
+<br>
 
 # Credit
 - Film Grain Reference - Christian Cann Schuldt Jensen ~ CeeJay.dk
