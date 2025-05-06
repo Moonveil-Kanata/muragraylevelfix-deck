@@ -17,7 +17,7 @@ Join the conversation here on [Reddit](https://www.reddit.com/r/SteamDeck/commen
 # Usage
 ![vkbasalt vs gamescope](https://github.com/user-attachments/assets/0f9f2b69-042a-493e-bfe7-f2f9e791dd46)
 
-We will use vkBasalt for better performance, you can use reshadeck/gamescope for easier usage, but it might causing stutter, decreased performance etc.
+We will use vkBasalt for better performance, you can use reshadeck/gamescope for easier usage, but it might causing stutter, performance penalty, etc.. especially on AAA games.
 
 Reshade on vkBasalt works on vulkan layer (In-game only), while reshade on gamescope work as compositor layer (Whole screen) but it will causing overhead.
 
