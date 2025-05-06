@@ -19,6 +19,8 @@ Join the conversation here on [Reddit](https://www.reddit.com/r/SteamDeck/commen
 
 We will use vkBasalt for better performance, you can use reshadeck/gamescope for easier usage, but it might causing stutter, decreased performance etc.
 
+vkBasalt works on vulkan layer (In-game only), while gamescope work as compositor layer (Whole screen) so it will causing overhead.
+
 **Installation:**
 1. Install [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
 2. [Download Shaders](https://github.com/Moonveil-Kanata/muragraylevelfix-deck/releases/tag/shader), extract, and execute ``Install.sh``
