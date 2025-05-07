@@ -10,7 +10,7 @@ In a nutshell, **you can fix it by set your screen hertz between 47hz-66hz and s
 
 This fix will use combination between **film grain for dithering, lift & gamma (only on near-black pixel)** and your **mura map (only on your bright pixel)**. While **this is not perfect**, atleast it will fix half of the screen issue.
 
-Join the conversation here on [Reddit](https://www.reddit.com/r/SteamDeck/comments/1kb9gku/finally_able_to_fix_mura_effect_on_my_steam_deck/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post.
+Join the conversation here on [Reddit](https://www.reddit.com/r/SteamDeck/comments/1kb9gku/finally_able_to_fix_mura_effect_on_my_steam_deck/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) & [Reddit](https://www.reddit.com/r/SteamDeck/comments/1kfxuou/dithering_gamma_fix_mura_correction_for_steam/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post.
 
 <br>
 
