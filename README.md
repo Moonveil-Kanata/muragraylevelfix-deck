@@ -44,7 +44,7 @@ Troubleshoot section is only, if you want all games work with vkbasalt, includin
 ## Emu Deck
 For Emu Deck after a couple test logging, it seems .appimage apps keep reading the x86 lib while they're running on x64. This method will make all emudeck emulators work with vkbasalt.
 
-1. Find ``/home/deck/.local/share/vulkan/implicit_layer.d/``
+1. Navigate ``/home/deck/.local/share/vulkan/implicit_layer.d/``
 2. rename file ``vkBasalt.x86.json`` to ``vkBasalt.x86.json.bak``
 
 ## HDR Games
@@ -66,6 +66,8 @@ VKBASALT_CONFIG_FILE=/home/deck/.config/vkBasalt/vkBasalt_AutoHDR.conf %command%
 As this is using gamescope compositor itself, then it works on everything that shows on the screen. OpenGL, Nested Desktop, you name it, when launching the game.
 
 **The downside of this method, it's tank your performance by a lot**
+
+Usually I'll use this on app like Chrome, Nested Desktop, etc, while opengl games usually is an older game, so performance penaly shouldn't really visible
 
 Set this as launch-command per-game
 ```
