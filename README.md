@@ -85,7 +85,7 @@ If it's not work, try changing the flatpak permission from system settings, or f
 - Install Decky Loader and enable Developer mode
 - Install [Bash Shortcut Plugin](https://github.com/SDH-Stewardship/bash-shortcuts/pull/1#issuecomment-2460919165)
 - Navigate to Plugin Config → Add Shortcut
-- Set it **Name ``Toggle vkBasalt``** | **Command ``sh +x /home/deck/.config/bin/Toggle_vkBasalt.sh``**
+- Set it **Name ``Toggle vkBasalt``** | **Command ``sh +x /home/deck/.config/bin/Toggle_vkBasalt.sh``** | ``Does this launch an app?`` **Off** | ``Does this shortcut using flags?``**On**
 
 ## Uninstall
 - Uninstal [vkBasalt](https://github.com/simons-public/steam-deck-vkbasalt-install)
