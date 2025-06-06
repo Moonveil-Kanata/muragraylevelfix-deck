@@ -4,6 +4,12 @@ https://github.com/user-attachments/assets/254a30c3-f0c4-4e98-b25e-6407b6a3cd0f
 
 ### THIS METHOD WILL BE SOON DEPRECATED AS THERE WILL BE A SIMPLE WAY WITH [DECKY LOADER PLUGIN THAT STILL IN DEVELOPMENT](https://www.reddit.com/r/SteamDeck/comments/1kle34m/i_made_a_mura_correction_plugin_for_decky_loader/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
+FUTURE PLUGIN WILL USE FULLY RESHADE GAMESCOPE, AS AFTER STEAMOS 3.7.8, RESHADE PERFORMANCE IS EQUAL WITH VKBASALT.
+Unfortunately I can't ss the overlay on the newest steamos lmao
+
+![vkbasalt vs gamescope steamos 3 7 8](https://github.com/user-attachments/assets/579503ce-43a8-42f9-93a2-52b0e4ee8e88)
+
+
 ## TL;DR
 
 Average Samsung-panel on Steam Deck have known-issues called Mura Effect and raised gamma, where it has bad gray-uniformity on certain Hz and brightness. Resulting, grainy/dirty looks on the screen which can consider looks like a noise or film grain. Causing gradient effects on near-black looks like banding when fading into black. **While the current fix provided from valve unfortunately is raising the black level with the mura map keep showing on the black pixel.**
